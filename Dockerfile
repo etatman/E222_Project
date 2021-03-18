@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-MAINTAINER Tyler Balson <tbalson@iu.edu>
+MAINTAINER Eric Tatman <etatman@iu.edu>
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update -y
@@ -36,4 +36,4 @@ EXPOSE 8080
 
 RUN pip install -r requirements.txt
 
-CMD ["make", "start"]
+#CMD ["make", "start"]
